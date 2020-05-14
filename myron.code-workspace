@@ -4,5 +4,7 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"python.pythonPath": "/Users/rickvillanueva/opt/anaconda3/envs/myron/bin/python"
+	}
 }
