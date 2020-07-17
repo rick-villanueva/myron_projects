@@ -2,9 +2,9 @@ import pandas as pd
 import random
 
 
-data_set = pd.read_csv("/Users/rickvillanueva/Documents/Myron/dated_random.csv")
+data_set = pd.read_csv("/Users/rickvillanueva/Documents/Myron/contest_orders.csv")
 
-random_data = data_set.MYRON_ACCT
+random_data = data_set.orderno
 
 random_names = []
 
@@ -13,7 +13,7 @@ random_gatherer = True
 while random_gatherer:
     one = random.choice(random_data)
     random_names.append(one)
-    if len(random_names) < 50:
+    if len(random_names) < 72:
         random_gatherer = True
         continue
     else:
